@@ -1,0 +1,10 @@
+timezone: Europe/Helsinki
+
+# Front Matter settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: "default"
