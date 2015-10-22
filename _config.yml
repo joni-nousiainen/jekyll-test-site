@@ -1,5 +1,7 @@
 timezone: Europe/Helsinki
 
+permalink: /blog/:year/:month/:day/:title.html
+
 # Front Matter settings
 defaults:
   -

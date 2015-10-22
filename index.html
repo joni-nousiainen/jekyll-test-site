@@ -2,4 +2,9 @@
 layout: default
 title: Home
 ---
-<div id="home">This is my home.</div>
+
+<ul>
+{% for post in site.posts %}
+<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
